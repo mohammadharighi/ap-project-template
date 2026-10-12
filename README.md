@@ -4,15 +4,6 @@
 
 > یک جمله درباره‌ی پروژه (مثلاً: شبیه‌ساز Git و GitHub یا شبیه‌ساز Linux). این خط را ویرایش کنید.
 
-## راهنمای شروع (بعد از ساختن Repository این بخش را پاک کنید)
-
-۱. روی دکمه‌ی **Use this template** بزنید و Repository گروه را بسازید.
-۲. هم‌گروهی‌تان را از Settings → Collaborators اضافه کنید.
-۳. هر نفر Branch مخصوص خودش را بسازد: `student-1` و `student-2`.
-۴. قالب پیام Commit را فعال کنید: `git config commit.template .gitmessage`
-۵. فایل‌های `docs/clean-code.md` و `docs/commit-culture.md` را بخوانید.
-۶. این README را کامل کنید (بخش‌های پایین).
-
 ## اعضای گروه
 
 | نام | شماره دانشجویی | Branch |
