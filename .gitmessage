@@ -1,0 +1,5 @@
+# type(scope): description   (English, imperative, max ~50 chars, no trailing period)
+#
+# type: feat | fix | refactor | test | docs | style | chore
+#
+# Optional body (why and how), after one blank line:
