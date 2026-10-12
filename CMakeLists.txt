@@ -26,3 +26,9 @@ enable_testing()
 # ---------------------------------------------------------------------------
 add_library(core STATIC core/CommandParser.cpp)
 target_include_directories(core PUBLIC ${CMAKE_SOURCE_DIR})
+
+# ---------------------------------------------------------------------------
+# Command line interface (phases 1-3)
+# ---------------------------------------------------------------------------
+add_executable(ap_cli cli/main.cpp)
+target_link_libraries(ap_cli PRIVATE core)
