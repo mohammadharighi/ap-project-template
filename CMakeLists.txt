@@ -20,3 +20,9 @@ enable_testing()
 # if(BUILD_UI)
 #     add_subdirectory(ui)
 # endif()
+
+# ---------------------------------------------------------------------------
+# Core library: application logic, independent of the UI
+# ---------------------------------------------------------------------------
+add_library(core STATIC core/CommandParser.cpp)
+target_include_directories(core PUBLIC ${CMAKE_SOURCE_DIR})
