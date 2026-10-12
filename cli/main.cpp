@@ -16,6 +16,10 @@ int main() {
         if (command->name == "exit") {
             break;
         }
+        if (command->name == "help") {
+            std::cout << "Available commands: help, exit\n";
+            continue;
+        }
         std::cout << "command: " << command->name
                   << ", arguments: " << command->arguments.size() << '\n';
     }
